@@ -1,0 +1,28 @@
+name: flutter_easy_upi_payment
+description: A production-ready Flutter package for initiating UPI payments on Android with support for UPI apps, payment responses, validation, and customizable payment UI.
+version: 0.0.1
+publish_to: "none"
+
+homepage: https://github.com/sufiyanshaikh-1304/flutter_easy_upi_payment
+repository: https://github.com/sufiyanshaikh-1304/flutter_easy_upi_payment
+issue_tracker: https://github.com/sufiyanshaikh-1304/flutter_easy_upi_payment/issues
+
+environment:
+  sdk: ">=3.11.5 <4.0.0"
+  flutter: ">=3.41.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.sufiyan.flutter_easy_upi_payment
+        pluginClass: FlutterEasyUpiPaymentPlugin
